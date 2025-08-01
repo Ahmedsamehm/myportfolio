@@ -1,8 +1,6 @@
 import React from "react";
 
 const About = () => {
-
-    
   const skills = ["React", "Next.js", "Tailwind CSS", "ShadCN UI", "Supabase", "TypeScript", "JavaScript", "HTML", "CSS"];
   return (
     <section id="about" className="py-16 px-6 bg-slate-800/50">

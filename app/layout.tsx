@@ -29,9 +29,7 @@ export default function RootLayout({
         <header>
           <NavBar />
         </header>
-        <main className="min-h-screen bg-slate-900  transition-color">
-          <div className="min-h-screen transition-colors duration-300">{children}</div>
-        </main>
+        <main className="min-h-screen bg-slate-900 ">{children}</main>
       </body>
     </html>
   );
